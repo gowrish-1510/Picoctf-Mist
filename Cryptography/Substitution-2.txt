@@ -1,0 +1,9 @@
+Question-It seems that another encrypted message has been intercepted. The encryptor seems to have learned their lesson though and now there isn't any punctuation! Can you still crack the cipher?
+Download the message here.
+
+steps-
+1. First we download the file with the given link and then we open the file to display its contents revealing continuous string of chracters without punctuations.
+
+2. We know that the key is encrypted using substitution cipher wherin all 26 alphabets are replaced by another set which is basically one of the 26! permutations possible.
+
+3. To decrypt the message , we use planetcalc.com which tries all permutations and gives us the key used to decrypt along with the passcode.Refer to the respective screenshot for more reference.
