@@ -1,0 +1,12 @@
+QUESTION-Can you crack the password to get the flag?
+Download the password checker here and you'll need the encrypted flag and the hash in the same directory too. Here's a dictionary with all possible passwords based on the password conventions we've seen so far
+
+1.First we download all the files and save them in the same directory.
+
+2.We open the dictionary.txt file in the python file using open function(open(dictionary.txt)) and it contains all the possible passwords for the flag.
+
+3. We iterate through all elements in the dictionary and compare it with the original password . While comparing, we ensure there is no whitespace in dictionary elements using the split() function in python.
+
+4.In one iteration, we get the password as 7e5f which gives us our picoctf key
+
+password- picoCTF{h45h_sl1ng1ng_40f26f81}

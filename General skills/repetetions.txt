@@ -1,0 +1,8 @@
+QUESTION-Can you make sense of this file?
+Download the file here
+
+1.We cat the file contents and it appears to be base64 encoded text as it ends with == padding.
+
+2. Using base64 -d command or online tool we try to decrypt the text multiple times(encoded multiple times) and we obtain the password
+
+password-

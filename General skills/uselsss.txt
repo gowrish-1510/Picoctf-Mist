@@ -1,0 +1,16 @@
+QUESTION-There's an interesting script in the user's home directory
+The work computer is running SSH. We've been given a script which performs some basic calculations, explore the script and find a flag.
+Hostname: saturn.picoctf.net
+Port:     49545
+Username: picoplayer
+Password: password
+
+1. Firstly we connect to the host using SSH by using the command ssh picoplayer@saturn.picoctf.net -p 49545 and enter the password
+
+2. we do ls in the pwd to list all the files present in the given directory.It lists 'useless' as a file 
+
+3.When we do 'cat useless' we get a script which actually just carries out simple mathematical operations. In the else part there is an echo"read manual" and hence we do man useless to go to manual
+
+4.At the end of manual we get our key.
+
+password-picoCTF{us3l3ss_ch4ll3ng3_3xpl0it3d_5136}
