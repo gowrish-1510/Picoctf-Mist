@@ -1,0 +1,36 @@
+ RSA ALGORITHM WORKING
+
+     Rivest–Shamir–Adleman algorithm uses asymmetric cryptographic algorithm i.e it uses 2 keys namely public and private keys.Here, public key is made common while private key is not shared with anyone.In this algo, the sender uses the receiver's public key to encrypt the data . The steps to execute RSA algorithm are:
+1. Choose 2 large random prime numbers 'a' and 'b'
+2. Calculate n= a*b
+3.calculate Q(n)=(a-1)*(b-1)
+4.Choose some random number e such that  1< e <Q(n)  and e is co-prime to Q(n)  i.e  the gcd of both should be 1. Here e will act as the public key along with n.
+5.Calculate d= e^-1 mod(Q(n)).  d acts as private key along with n.
+
+ADVANTAGES-
+Because of using large prime numbers in generation of keys, it is considered a strong encryption technique
+
+DISADVANTAGES:
+1.prone to cycle attack-Attacker uses all permutation of plain text to decipher the cipher text.
+2.chosen cipher attack- Attacker uses Euclidian extended algo
+3.factorization attack- attacker predicts the value of a,b using n.
+
+PSEUDO CODE:
+double a=13;
+double b=17;
+
+double n=a*b;
+double Q=(a-1)*(b-1);
+double e=2;
+while(e<Q){
+if(gcd(e,Q==1)
+break;
+
+else
+e++;
+}
+
+double d=mod(Q)/e; //mod is a function
+cin>>m //message
+double enc=(pow(m,e)%n) //encryption
+

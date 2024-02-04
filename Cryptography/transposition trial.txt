@@ -1,0 +1,9 @@
+QUESTION-Our data got corrupted on the way here. Luckily, nothing got replaced, but every block of 3 got scrambled around! The first word seems to be three letters long, maybe you can use that to recover the rest of the message.
+Download the corrupted message here.
+
+steps-
+1.Since the text we recieved is jumbled in blocks of 3, we assume it might be encrypted using row column transposition.
+
+2.We go to https://tholman.com/other/transposition/ and paste our text there and put the key as 3. The first 3 letters 'het' gives us hint that that the 0th and 2nd position have been jumbled in blocks of 3 throught the text. Thus we interchange those positions inorder to obtain our password.
+
+password-picoCTF{7R4N5P051N6_15_3XP3N51V3_56E6924A}

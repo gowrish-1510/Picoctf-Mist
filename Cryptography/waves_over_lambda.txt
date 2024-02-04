@@ -1,0 +1,7 @@
+QUESTION-We made a lot of substitutions to encrypt this. Can you decrypt it? Connect with nc jupiter.challenges.picoctf.org 13758.
+
+steps:
+1.Since the text is encrypted using substitution cipher, we go to https://planetcalc.com/8047/ to decode the cipher
+2.The key for decrypt turns out to be IYGWVODFCMXQSPBZNHJTALEKRU and we get the password using the above key.
+
+password- FREQUENCY_IS_C_OVER_LAMBDA_DNVTFRTAYU
